@@ -1,5 +1,7 @@
 # Do Da Travis
 
+[![Build Status](https://travis-ci.org/hairmare/dodat.svg?branch=develop)](https://travis-ci.org/hairmare/dodat) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/hairmare/dodat/badges/quality-score.png?b=develop)](https://scrutinizer-ci.com/g/hairmare/dodat/?branch=develop) [![Code Coverage](https://scrutinizer-ci.com/g/hairmare/dodat/badges/coverage.png?b=develop)](https://scrutinizer-ci.com/g/hairmare/dodat/?branch=develop)
+
 Run scripts from ``.travis.yml``.
 
 ## Install
