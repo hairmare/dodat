@@ -1,6 +1,9 @@
 {
     "name": "hairmare/dodat",
     "description": "Do Da Travis runs scripts from your travis yml",
+    "bin": [
+        "bin/dodat"
+    ],
     "autoload": {
         "psr-4": { "Hairmare\\Dodat\\": "src/" }
     },
