@@ -11,11 +11,8 @@ class Load
      */
     private $data;
 
-    public static function fromFile($file = null)
+    public static function fromFile($file)
     {
-        if (is_null($file)) {
-            $file = __DIR__.'/../.travis.yml';
-        }
         return new Load(file_get_contents($file));
     }
 
