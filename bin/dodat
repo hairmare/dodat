@@ -8,7 +8,7 @@ use Hairmare\Dodat\Run;
 use Hairmare\Dodat\Load;
 use Hairmare\Dodat\Command;
 
-$command = new Command(new Run, Load::fromFile(__DIR__.'/../../.travis.yml'));
+$command = new Command(new Run, Load::fromFile(getcwd().'/.travis.yml'));
 $console = new Application();
 $console->add($command);
 $console->setDefaultCommand($command->getName());
