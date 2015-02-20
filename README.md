@@ -1,6 +1,6 @@
 # Do Da Travis
 
-[![Build Status](https://travis-ci.org/hairmare/dodat.svg?branch=develop)](https://travis-ci.org/hairmare/dodat) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/hairmare/dodat/badges/quality-score.png?b=develop)](https://scrutinizer-ci.com/g/hairmare/dodat/?branch=develop) [![Code Coverage](https://scrutinizer-ci.com/g/hairmare/dodat/badges/coverage.png?b=develop)](https://scrutinizer-ci.com/g/hairmare/dodat/?branch=develop)
+[![Build Status](https://travis-ci.org/hairmare/dodat.svg?branch=develop)](https://travis-ci.org/hairmare/dodat) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/hairmare/dodat/badges/quality-score.png?b=develop)](https://scrutinizer-ci.com/g/hairmare/dodat/?branch=develop) [![Code Coverage](https://scrutinizer-ci.com/g/hairmare/dodat/badges/coverage.png?b=develop)](https://scrutinizer-ci.com/g/hairmare/dodat/?branch=develop) [![Latest Stable Version](https://poser.pugx.org/hairmare/dodat/v/stable.svg)](https://packagist.org/packages/hairmare/dodat) [![Total Downloads](https://poser.pugx.org/hairmare/dodat/downloads.svg)](https://packagist.org/packages/hairmare/dodat) [![Latest Unstable Version](https://poser.pugx.org/hairmare/dodat/v/unstable.svg)](https://packagist.org/packages/hairmare/dodat) [![License](https://poser.pugx.org/hairmare/dodat/license.svg)](https://packagist.org/packages/hairmare/dodat)
 
 Run scripts from ``.travis.yml``.
 
