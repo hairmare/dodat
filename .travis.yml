@@ -1,0 +1,13 @@
+language: php
+before_script:
+  - composer install --dev --no-interaction
+  - wget https://scrutinizer-ci.com/ocular.phar
+php:
+  - 5.6
+  - 5.5
+  - 5.4
+script:
+  - ./vendor/bin/phpunit --coverage-text --coverage-clover=coverage.clover
+  - php ocular.phar code-coverage:upload --format=php-clover coverage.clover
+  - ./vendor/bin/phpcs --standard=PSR1 bin/ src/ test/
+  - ./vendor/bin/phpcs --standard=PSR2 bin/ src/ test/
