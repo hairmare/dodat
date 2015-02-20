@@ -24,7 +24,11 @@ class Load
      */
     public function __construct($json)
     {
-        $this->data = Yaml::parse($json);
+        $data = Yaml::parse($json);
+        if (!is_array($data)) {
+            throw new \RuntimeException('Found non array data in .travis.yml');
+        }
+        $this->data = $data;
     }
 
     /**
