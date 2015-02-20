@@ -1,2 +1,15 @@
-#!/bin/bin/env php
+#!/usr/bin/env php
 <?php
+
+require 'vendor/autoload.php';
+
+use Symfony\Component\Console\Application;
+use Hairmare\Dodat\Run;
+use Hairmare\Dodat\Load;
+use Hairmare\Dodat\Command;
+
+$command = new Command(new Run, Load::fromFile());
+$console = new Application();
+$console->add($command);
+$console->setDefaultCommand($command->getName());
+$console->run();
