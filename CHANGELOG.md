@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.4
+
+* another stab at branch aliases
+
 ## 0.1.3
 
 * reconfigure branch aliases on packagist
