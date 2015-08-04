@@ -25,5 +25,15 @@
             "name": "Lucas Bickel",
             "email": "hairmare@purplehaze.ch"
         }
+    ],
+    "extra": {
+        "branch-alias": {
+            "dev-develop": "0.x-dev"
+        }
+    },
+    "non-feature-branches": [
+        "master",
+        "develop",
+        "support/*"
     ]
 }
