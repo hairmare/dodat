@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.3
+
+* reconfigure branch aliases on packagist
+* update deps
+
 ## 0.1.2
 
 * use ``getcwd()`` to get a ``.travis.yml`` location
