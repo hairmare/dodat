@@ -11,7 +11,7 @@
         "psr-4": { "Hairmare\\Dodat\\": "dev/" }
     },
     "require": {
-        "symfony/yaml": "~2.6",
+        "symfony/yaml": "~4.0",
         "symfony/process": "~2.6",
         "symfony/console": "~2.6"
     },
